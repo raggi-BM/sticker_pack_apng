@@ -17,19 +17,23 @@ APNG-Gen is a Python script designed for creating animated PNG (APNG) files tail
 Make sure Python 3.x is installed on your system. Install the necessary Python packages:
 ```bash
 pip install Pillow tqdm uuid shutil
+```
 Also, ensure pngquant and ffmpeg are installed and properly set up in your system's PATH.
 
-Usage
+## Usage
 Run the script from the command line by specifying the input folder and the desired output size. Available size options are small, regular, or large.
 
-bash
-Copy code
+```bash
 python apng-gen.py <input_folder> <size>
+```
 Replace <input_folder> with the path to your image sequences, and <size> with either small, regular, or large.
 
-Example
-python apng-gen.py ./MyPngSequences regular
-Features
+## Example
+```bash
+python apng-gen.py MyPngSequences regular
+```
+
+## Features
 Adaptive Image Resizing: Customizes image sizes to meet iMessage sticker pack standards.
 Optimized Image Compression: Utilizes pngquant for effective size reduction while maintaining quality.
 Streamlined APNG Creation: Efficiently converts image sequences into
