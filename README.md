@@ -1,5 +1,5 @@
 
-# APNG-Gen: iMessage Sticker Pack Generator
+# APNG-Gen: iMessage Sticker Pack apng Generator
 
 ## Description
 APNG-Gen is a Python script designed for creating animated PNG (APNG) files tailored for iMessage sticker packs. It simplifies the process of transforming image sequences into compliant APNGs for iMessage, offering various resizing options and image optimization. This tool is essential for designers and developers who want to enrich their iMessage sticker collections with ease and efficiency.
