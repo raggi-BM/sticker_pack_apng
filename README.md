@@ -36,4 +36,4 @@ python apng-gen.py MyPngSequences regular
 ## Features
 Adaptive Image Resizing: Customizes image sizes to meet iMessage sticker pack standards.
 Optimized Image Compression: Utilizes pngquant for effective size reduction while maintaining quality.
-Streamlined APNG Creation: Efficiently converts image sequences into
+Streamlined APNG Creation: Efficiently converts image sequences into animated PNGs with ffmpeg.
